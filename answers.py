@@ -11,6 +11,6 @@ def calculate_discount(price, discount_percent):
 
     final_price = calculate_discount(original_price, discount_percentage)
 
-    print(f"The final price after applying the discount is: ${final_price:.2f}")
+    print(f"The final price after applying the discount is: Ksh{final_price:.2f}")
 except ValueError:
     print("Please enter valid numeric values for price and discount percentage.")
